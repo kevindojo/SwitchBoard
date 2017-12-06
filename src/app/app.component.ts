@@ -6,5 +6,30 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
-}
+  title: string = 'Switchboard';
+
+  // stats = [ 'OFF','OFF','OFF','OFF','OFF','OFF','OFF','OFF','OFF','OFF'];
+
+  // switch(idx){
+
+  //   if(this.stats [idx] == "ON") {
+  //     this.stats[idx] == "OFF";
+  //   } else {
+  //     this.stats[idx] = "ON";
+  //   }
+  // }
+
+
+
+  // ANOTHER METHOD
+  switches = [true, true, true, true, true, true, true, true, true, true];
+
+  flipSwitch(idx) {
+    this.switches[idx] = !this.switches[idx];
+  }
+
+
+
+
+
+} // end of AppComponent

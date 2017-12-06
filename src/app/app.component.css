@@ -1,0 +1,42 @@
+h1 {
+    font-size: 50pt;
+    text-align: center;
+}
+
+
+/* #buttonz {
+    text-align: center;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.on {
+    background-color: green;
+} */
+
+
+/* ANOTHER METHOD  */
+div.container {
+    width: 500px;
+    min-height: 200px;
+    margin: 0 auto;
+}
+div.row {
+    margin: 0 auto;
+}
+div.switch {
+    display: inline-block;
+}
+button {
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+button.on {
+    background-color: green;
+}
