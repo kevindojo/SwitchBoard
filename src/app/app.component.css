@@ -32,9 +32,9 @@ div.switch {
     display: inline-block;
 }
 button {
-    font-size: 30px;
-    width: 100px;
-    height: 100px;
+    font-size: 10px;
+    width: 50px;
+    height: 50px;
     background-color: red;
 }
 button.on {
